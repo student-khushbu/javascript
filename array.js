@@ -65,3 +65,10 @@ const doubleValue = numbers.map((currentValue) =>{
     return currentValue *2 ;
 });
 console.log(doubleValue);
+//  how to insert , add , replace and delete element in array
+
+const persons = ["khushbu" , " Reena" ,"trivisa" ,"Vishal" ,"sita"];
+persons.push("Ram" ,"sita" ,"Anjali")
+console.log(persons);
+persons.pop("khushbu")
+console.log(persons);
