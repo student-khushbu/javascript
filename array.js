@@ -71,4 +71,12 @@ const persons = ["khushbu" , " Reena" ,"trivisa" ,"Vishal" ,"sita"];
 persons.push("Ram" ,"sita" ,"Anjali");
 console.log(persons);
 persons.pop();
+console.log(persons); 
+
+//  unshift and shift method in array
+
+console.log(persons.unshift("Rahul"));
+console.log(persons);
+
+console.log(persons.shift());
 console.log(persons);
