@@ -119,7 +119,7 @@ console.log(months);
 
 //  find method 
 
-const number =[1 , 2,5, 3, 5, 6,7 ,6,7,8 ,9];
+const number =[1 ,2 , 3, 4, 5, 6, 7, 8, 9];
 /*const result = number.find((curElem) =>{ 
     return curElem > 6;
 });
@@ -135,3 +135,45 @@ const result2 =result.findIndex((curElem) => {
 });
 console.log(result2);
 
+const result3 = number.filter((curElem) =>{ 
+    return curElem >4 ;
+
+});
+
+console.log(result3);
+
+const values =[1 , 2, 6 ,3, 6,4, 5, 6, 7, 8];
+let value =6 ;
+
+let updatedCart = values.filter((curElem) =>{ 
+    return curElem !=value ;
+
+});
+
+console.log(updatedCart);
+
+//  filtering product by price
+
+const products =[
+    {name:"Laptop" ,price:1200},
+    {name:"phone" ,price:800},
+    {name:"Tablet" ,price:300},
+    {name:"Smartwatch" ,price:150}
+];
+// let price =500 ;
+let filterPrice = products.filter((curElem)=>{ 
+    return curElem.price <=500 ;
+});
+
+console.log(filterPrice);
+
+// filter unique value
+
+const count =[1 ,2 ,3 , 4,4, 5, 7, 6, 7,8];
+let uniqueValue =count.filter((curElem ,index , arr) =>{ 
+    console.log(arr.indexOf(curElem));
+    return arr.indexOf(curElem)== index ;
+}) ;
+console.log(uniqueValue);
+
+// console.log(uniqueValue);
