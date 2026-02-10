@@ -116,3 +116,12 @@ console.log(months);
 months.splice(3,1);
 console.log(months);
 // console.log(months.splice()); splice method return empty array
+
+//  find method 
+
+const number =[1 , 2,5, 3, 5, 6, ,6,7,8 ,9]
+const result = number.find((curElem) =>{ 
+    return curElem > 6;
+});
+
+console.log(result);
