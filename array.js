@@ -79,4 +79,13 @@ console.log(persons.unshift("Rahul"));
 console.log(persons);
 
 console.log(persons.shift());
-console.log(persons);
+console.log(persons); 
+
+//  splice method 
+
+let juices =["pineapple" ,"guava" ,"orange" ,"bnana"];
+// console.log(juices.splice(0));
+// console.log(juices.splice(1 ,1));
+// console.log(juices);
+juices.splice(1 , 1 ,"lichi");
+console.log(juices);
