@@ -119,9 +119,19 @@ console.log(months);
 
 //  find method 
 
-const number =[1 , 2,5, 3, 5, 6, ,6,7,8 ,9]
-const result = number.find((curElem) =>{ 
+const number =[1 , 2,5, 3, 5, 6,7 ,6,7,8 ,9];
+/*const result = number.find((curElem) =>{ 
     return curElem > 6;
 });
 
+console.log(result); */
+
+//  findIndex method in array
+
+const result = number.map((curElem) => curElem *5);
 console.log(result);
+const result2 =result.findIndex((curElem) => { 
+    return curElem >10 ;
+});
+console.log(result2);
+
