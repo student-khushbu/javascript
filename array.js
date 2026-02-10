@@ -89,3 +89,15 @@ let juices =["pineapple" ,"guava" ,"orange" ,"bnana"];
 // console.log(juices);
 juices.splice(1 , 1 ,"lichi");
 console.log(juices);
+
+
+// searching and filter in an array
+//  for search we have - indexOf , lastIndexof  & includes
+
+const people =["sita" ,"Ram" ,"Anjali" ,"Ram" ,"Khushi"];
+console.log(people.indexOf("Khushi"));
+
+console.log(people.includes("sita" ,2));
+
+console.log(people.lastIndexOf("Ram" ,2));
+
