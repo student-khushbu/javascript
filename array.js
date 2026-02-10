@@ -135,6 +135,7 @@ const result2 =result.findIndex((curElem) => {
 });
 console.log(result2);
 
+//  filter method
 const result3 = number.filter((curElem) =>{ 
     return curElem >4 ;
 
