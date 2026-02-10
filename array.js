@@ -101,3 +101,18 @@ console.log(people.includes("sita" ,2));
 
 console.log(people.lastIndexOf("Ram" ,2));
 
+//  todo challenge time 
+
+// add dec at the end of an array ?
+//  what is the return value of splice method ?
+//  update march to March
+//  delete June from an array
+
+const months =["Jan" ,"march" ,"April" ,"June" ,"July"];
+months.splice(months.length , 0 ,"Dec");
+console.log(months);
+months.splice(1 , 1 ,"March");
+console.log(months);
+months.splice(3,1);
+console.log(months);
+// console.log(months.splice()); splice method return empty array
