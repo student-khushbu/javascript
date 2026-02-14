@@ -198,3 +198,11 @@ Numbers.sort((a ,b) =>{
     if(b > a) return 1;
 });
 console.log(Numbers);
+
+//  usemap to square each number and create a new array
+
+const numberNew =[1 , 2, 3,4 ,5];
+const squareValue =numberNew.map((currentValue) =>{ 
+    return currentValue*currentValue;
+});
+console.log(squareValue);
