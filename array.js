@@ -187,3 +187,14 @@ console.log(fruts);
 const Numbers =[1 ,2 ,6,5 ,6 ,7,];
 Numbers.sort();
 console.log(Numbers);
+//   compare method
+// for descending order
+// const sortedNumbers =Numbers.sort((a ,b) => a -b);
+// if(a > b) return 1 => switch the order
+// if(b > a) return -1 => keep the order
+
+Numbers.sort((a ,b) =>{ 
+    if(a > b) return -1;
+    if(b > a) return 1;
+});
+console.log(Numbers);
