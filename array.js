@@ -206,3 +206,32 @@ const squareValue =numberNew.map((currentValue) =>{
     return currentValue*currentValue;
 });
 console.log(squareValue);
+//  using map method , writea function that takes an array of strings and returns a new array where 
+// each string is capatalized
+
+const words = ["apple" ,"bnana","cherry","date"];
+const capital = words.map((curElem) =>{ 
+    return curElem.toUpperCase();
+    // return curElem.toLowerCase();
+
+});
+console.log(capital);
+
+//  using map method , write a function that takes an arrayof numbers and returns a array where each number is squared , but only if its an even number  
+const arrayNumbers =[1 , 2,3 ,4 ,5 ,6 ,7,8,9 ,10];
+const square =arrayNumbers.map((curElem)=>{ 
+if(curElem % 2==0){ 
+    return curElem * curElem ; 
+
+}
+}) 
+.filter((curElem) => curElem !=  undefined);
+console.log(square);
+
+//  using map method .], write a function that takes an array of names and returns a new array where each nameis prefix with "Mr."
+
+const nameArray =["Akash" ,"Anil" ,"Vinod" ,"Sunil"];
+const newName = nameArray.map((curElem) =>{ 
+    return  ` ${"Mr."} ${curElem}`;
+}) ;
+console.log(newName);
