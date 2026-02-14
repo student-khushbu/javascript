@@ -178,3 +178,12 @@ let uniqueValue =count.filter((curElem ,index , arr) =>{
 console.log(uniqueValue);
 
 // console.log(uniqueValue);
+
+// Sort and Compare an Array
+const fruts = ["Apple" ,"Banana" ,"Orange","Mango","Grapes"];
+fruts.sort();
+console.log(fruts); 
+
+const Numbers =[1 ,2 ,6,5 ,6 ,7,];
+Numbers.sort();
+console.log(Numbers);
