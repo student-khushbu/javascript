@@ -242,3 +242,11 @@ const totalPrice = productPrice.reduce((accum , curElem)=>{
 },0);
 
 console.log(totalPrice);
+
+// strings 
+const str = "Hello, World!" ;
+console.log(str.length);
+
+//  escape character 
+let text = "My name is 'Khushbu shah' & \n I am a\" software developer\" ";
+console.log(text);
