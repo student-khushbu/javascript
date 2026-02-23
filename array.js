@@ -269,3 +269,6 @@ let index = js.indexOf("javascript") ;
 let lstindex = js.lastIndexOf("javascript" ,30);
 console.log(lstindex);
 console.log(index); 
+//  search method 
+let searchResult =  js.search(/Javascript/i);
+console.log(searchResult); 
