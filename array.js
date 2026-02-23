@@ -261,3 +261,11 @@ console.log(strArray);
 let strMap = strArray.map((curElem , index) => 
     `${curElem} -> ${index}`);
 console.log(strMap);
+
+//  lastIndexOf method
+
+let js = "hello javascript , welcome to our world best javascript course";
+let index = js.indexOf("javascript") ;
+let lstindex = js.lastIndexOf("javascript" ,30);
+console.log(lstindex);
+console.log(index); 
