@@ -250,3 +250,14 @@ console.log(str.length);
 //  escape character 
 let text = "My name is 'Khushbu shah' & \n I am a\" software developer\" ";
 console.log(text);
+
+let name ="Khushbu Shah";
+console.log(name.indexOf("Shah"));
+
+// array.from method 
+let strArray = Array.from(name);
+console.log(strArray);
+
+let strMap = strArray.map((curElem , index) => 
+    `${curElem} -> ${index}`);
+console.log(strMap);
