@@ -235,3 +235,10 @@ const newName = nameArray.map((curElem) =>{
     return  ` ${"Mr."} ${curElem}`;
 }) ;
 console.log(newName);
+//  reduce function 
+const productPrice = [100 , 200 , 300 , 400, 500];
+const totalPrice = productPrice.reduce((accum , curElem)=>{
+    return accum + curElem ;
+},0);
+
+console.log(totalPrice);
