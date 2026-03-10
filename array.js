@@ -270,12 +270,23 @@ let lstindex = js.lastIndexOf("javascript" ,30);
 console.log(lstindex);
 console.log(index); 
 //  search method 
-let searchResult =  js.search(/Javascript/i);
-console.log(searchResult); 
+// let searchResult =  js.search(/Javascript/i);
+// console.log(searchResult); 
 
 //  match method
-let result1 = js.match("javascript");
+// let result1 = js.match("javascript");
 // console.log(result1);
 
-let result4 = js.match(/Javascript/ig);
-console.log(result4);
+// let result4 = js.match(/Javascript/ig);
+// console.log(result4);
+
+//  matchAll method 
+let name1 = "hey,I am khushbu and khushbu loves dancing";
+
+let matchResult = name1.matchAll("khushbu");
+// console.log( ...matchResult);
+
+for (let item of matchResult) {
+    console.log(item);
+    
+}
