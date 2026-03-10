@@ -303,3 +303,10 @@ console.log(match1);
 
 let match2 = name1.endsWith("dancing");
 console.log(match2);
+
+// slice method 
+
+let match3 = name1.slice(6);
+let match4 = name1.slice(6 , 15);
+console.log(match3);
+console.log(match4);
