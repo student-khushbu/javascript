@@ -296,5 +296,10 @@ let match = name1.includes("khush");
 console.log(match);
 //  startWith method
 
-let match1 = name1.startsWith("hey");
+let match1 = name1.startsWith("hey" , 0);
 console.log(match1);
+
+//  endswith method 
+
+let match2 = name1.endsWith("dancing");
+console.log(match2);
