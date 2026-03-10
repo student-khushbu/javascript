@@ -272,3 +272,10 @@ console.log(index);
 //  search method 
 let searchResult =  js.search(/Javascript/i);
 console.log(searchResult); 
+
+//  match method
+let result1 = js.match("javascript");
+// console.log(result1);
+
+let result4 = js.match(/Javascript/ig);
+console.log(result4);
