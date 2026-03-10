@@ -287,6 +287,14 @@ let matchResult = name1.matchAll("khushbu");
 // console.log( ...matchResult);
 
 for (let item of matchResult) {
-    console.log(item);
+    console.log(item[0] );
     
 }
+
+//  includes() method 
+let match = name1.includes("khush");
+console.log(match);
+//  startWith method
+
+let match1 = name1.startsWith("hey");
+console.log(match1);
