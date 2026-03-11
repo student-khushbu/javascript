@@ -338,3 +338,10 @@ console.log(result10);
 
 let result11 = js.substring(1);
 console.log(result11);
+
+// charAt() method 
+
+let ans = js.charAt(6);
+console.log(ans);
+let ans2 = js.charAt(-6);
+console.log(ans2);
