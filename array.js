@@ -314,4 +314,15 @@ console.log(match4);
 
 // substring() method 
 let result5 = js.substring(-6);
-console.log(result5);
+// console.log(result5);
+
+
+//  practice question 
+
+let result6 = js.substring(0);
+let result7 = js.substring(1);
+let result8 = js.substring(-5);
+
+console.log(result6);
+console.log(result7);
+console.log(result8);
