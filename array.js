@@ -326,3 +326,15 @@ let result8 = js.substring(-5);
 console.log(result6);
 console.log(result7);
 console.log(result8);
+// interview question 
+
+let result9 = js.slice(1);
+console.log(result9);
+
+// let result10 = js.replace("javascript" ,"khushbu");
+let result10 = js.replaceAll("javascript" ,"khushbu");
+
+console.log(result10);
+
+let result11 = js.substring(1);
+console.log(result11);
