@@ -4,15 +4,23 @@
 
 //  1 solution
 
-// for( let char = 97 ; char <= 122 ; char++){
-    // console.log(String.fromCharCode(char));
-// }
+for( let char = 97 ; char <= 122 ; char++){
+    console.log(String.fromCharCode(char));
+}
 
-// 2 .
+// 3 .
+
 
 const checkAllVowelPresentOrNot = (str) => {
     const vowels = "aeiou";
     for (let char of vowels) {
-        console.log(char);
+        // console.log(char);
+        // console.log(str.includes(char));
+        if(!str.includes(char)){
+            return false;
+        }
     }
+    return true ;
 };
+
+console.log(checkAllVowelPresentOrNot("hey , i am khushbu  "));
