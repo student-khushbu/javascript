@@ -355,3 +355,9 @@ console.log(ans3);
 
 let ans4 = js.at(-6);
 console.log(ans4);
+
+//  replace() method in string 
+
+let  str1 ="Hello,World!";
+let  newStr = str1.replace("World!" ,"Khushbu");
+console.log(newStr); 
