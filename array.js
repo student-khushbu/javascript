@@ -361,3 +361,24 @@ console.log(ans4);
 let  str1 ="Hello,World!";
 let  newStr = str1.replace("World!" ,"Khushbu");
 console.log(newStr); 
+
+// other useful methods 
+
+let fruit1 = "JavaScript";
+console.log(fruit1.toUpperCase());
+console.log(fruit1.toLowerCase());
+
+//  trim() method 
+
+const string1 ="  Hello,World!  ";
+console.log(string1.length);
+
+let trimStr = string1.trim();
+console.log(trimStr);
+console.log(trimStr.length);
+
+//  split method() 
+
+const str3 = "apple , bnana , orange";
+let strArr = str3.split(",").reverse().join();
+console.log(strArr);
