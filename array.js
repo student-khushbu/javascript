@@ -310,3 +310,8 @@ let match3 = name1.slice(6);
 let match4 = name1.slice(6 , 15);
 console.log(match3);
 console.log(match4);
+
+
+// substring() method 
+let result5 = js.substring(-6);
+console.log(result5);
