@@ -264,7 +264,7 @@ console.log(strMap);
 
 //  lastIndexOf method
 
-let js = "hello javascript , welcome to our world best javascript course";
+let js = "hello Javascript , welcome to our world best javascript course";
 let index = js.indexOf("javascript") ;
 let lstindex = js.lastIndexOf("javascript" ,30);
 console.log(lstindex);
@@ -345,3 +345,13 @@ let ans = js.charAt(6);
 console.log(ans);
 let ans2 = js.charAt(-6);
 console.log(ans2);
+
+//  charCodeAt() method 
+
+let ans3 =js.charCodeAt(6);
+console.log(ans3);
+
+//  at() method in string 
+
+let ans4 = js.at(-6);
+console.log(ans4);
